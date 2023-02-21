@@ -1,8 +1,13 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
+import { Application } from "https://deno.land/x/oak@v11.1.0/mod.ts";
 
-// Learn more at https://deno.land/manual/examples/module_metadata#concepts
-if (import.meta.main) {
-  console.log("Add 2 + 3 =", add(2, 3));
-}
+const app = new Application();
+
+const app_port = Deno.env.get("PORT");
+const m_port = app_port ? Number(app_port) : 8000;
+
+app.use((ctx) => {
+  ctx.response.body = JSON.stringify({ sup: "nerds!" });
+});
+
+console.log(`starting server at: http://localhost:${m_port}`);
+await app.listen({ port: m_port });
