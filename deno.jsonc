@@ -1,5 +1,9 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-net --allow-env main.ts"
+    "check": "deno lint && deno fmt && deno check main.ts",
+    "start": "deno run --watch --allow-net --allow-env main.ts"
+  },
+  "fmt": {
+    "files": { "exclude": ["*.md", "*.toml", "*.sql", ".gitignore", "*.json"] }
   }
 }
