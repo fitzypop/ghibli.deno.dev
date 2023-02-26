@@ -3,30 +3,26 @@
 
 // deno run -A migrate.ts
 
-async function parseDataFile(file) {
+async function parseDataFile(file: string) {
   const decoder = new TextDecoder("utf-8");
   const data = await Deno.readFile(file);
   return JSON.parse(decoder.decode(data));
 }
 
-async function saveFile(name, data) {
+async function saveFile(name: string, data: string) {
   const encoder = new TextEncoder();
   await Deno.writeFile(name, encoder.encode(data));
 }
 
-function parray(arr) {
-  return `ARRAY [${arr.map((o) => ` '${o}'`)} ]`;
+function formatArray(arr: Array<string>) {
+  return `ARRAY [${arr.map((a) => ` '${a}'`)} ]`;
 }
 
-function start(name, arr) {
+function start(name: string, arr: Array<string>) {
   return `insert into public.${name} (${arr.map((a) => `"${a}"`)}) values`;
 }
 
-function end() {
-  return ";";
-}
-
-function process(jsonData, name) {
+function process(jsonData: any, name: string) {
   const data = jsonData[name];
   const keys = Object.keys(data[0]);
 
@@ -36,7 +32,7 @@ function process(jsonData, name) {
     mStr += ` ( `;
     for (const k of keys) {
       mStr += Array.isArray(d[k])
-        ? parray(d[k])
+        ? formatArray(d[k])
         : `'${d[k].replaceAll("'", "")}'`;
       if (keys.length - 1 !== keys.indexOf(k)) {
         mStr += `,`;
@@ -45,7 +41,7 @@ function process(jsonData, name) {
     mStr += `)` + (data.length - 1 !== data.indexOf(d) ? `,` : ``);
   }
 
-  mStr += end();
+  mStr += `;`;
   return mStr;
 }
 
