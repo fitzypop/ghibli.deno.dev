@@ -13,5 +13,3 @@ alter table "public"."species" add column "name" text;
 alter table "public"."species" add column "people" text[];
 
 alter table "public"."species" add column "url" text;
-
-

@@ -13,14 +13,12 @@ async function saveFile(name, data) {
 }
 
 function parray(arr) {
-  if (arr.length === 1 && (arr[0].endsWith("/") || arr[0] === "TODO")) {
-    return null;
-  }
-  return `ARRAY [${arr.map((o) => ` \`${o}\``)} ]`;
+  console.log(arr);
+  return `ARRAY [${arr.map((o) => ` '${o}'`)} ]`;
 }
 
 function start(name, arr) {
-  return `insert into public.${name} (${arr}) values`;
+  return `insert into public.${name} (${arr.map((a) => `"${a}"`)}) values`;
 }
 
 function end() {
@@ -36,7 +34,9 @@ function process(jsonData, name) {
   for (const d of data) {
     mStr += ` ( `;
     for (const k of keys) {
-      mStr += Array.isArray(d[k]) ? parray(d[k]) : `\`${d[k]}\``;
+      mStr += Array.isArray(d[k])
+        ? parray(d[k])
+        : `'${d[k].replaceAll("'", "")}'`;
       if (keys.length - 1 !== keys.indexOf(k)) {
         mStr += `,`;
       }
