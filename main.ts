@@ -1,13 +1,13 @@
-import { Application } from "https://deno.land/x/oak@v11.1.0/mod.ts";
+/// <reference no-default-lib="true" />
+/// <reference lib="dom" />
+/// <reference lib="dom.iterable" />
+/// <reference lib="dom.asynciterable" />
+/// <reference lib="deno.ns" />
 
-const envPort = Deno.env.get("PORT");
-const aPort = envPort ? Number(envPort) : 8000;
+import { start } from "$fresh/server.ts";
+import manifest from "./fresh.gen.ts";
 
-const app = new Application();
+import twindPlugin from "$fresh/plugins/twind.ts";
+import twindConfig from "./twind.config.ts";
 
-app.use((ctx) => {
-  ctx.response.body = JSON.stringify({ sup: "nerds!" });
-});
-
-console.log(`starting server at: http://localhost:${aPort}`);
-await app.listen({ port: aPort });
+await start(manifest, { plugins: [twindPlugin(twindConfig)] });
