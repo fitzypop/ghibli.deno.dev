@@ -2,6 +2,8 @@
 
 I'm porting over the og ghibli api to deno and supabase.
 
+![](https://media.giphy.com/media/ASy3PKVFnk7ZK/giphy.gif)
+
 ## Updates
 
 2/26/23 - Finally created a functional migration script to parse `data.json` to `seed.sql` for supabase.
