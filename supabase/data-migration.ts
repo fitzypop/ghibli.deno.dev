@@ -13,7 +13,6 @@ async function saveFile(name, data) {
 }
 
 function parray(arr) {
-  console.log(arr);
   return `ARRAY [${arr.map((o) => ` '${o}'`)} ]`;
 }
 
