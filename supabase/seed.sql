@@ -1,5 +1,4 @@
-insert into
-    public.films (
+insert into public.films (
         id,
         title,
         original_title,
@@ -18,8 +17,7 @@ insert into
         vehicles,
         url
     )
-values
-    (
+values (
         `2baf70d1-42bb-4437-b551-e5fed5a87abe`,
         `Castle in the Sky`,
         `天空の城ラピュタ`,
@@ -36,7 +34,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         ARRAY [ `https://ghibliapp.com/vehicles/4e09b023-f650-4747-9ab9-eacf14540cfb` ],
-        `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe`,
+        `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe`
     ),
     (
         `12cfb892-aac0-4c5b-94af-521852e46d6a`,
@@ -55,7 +53,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/12cfb892-aac0-4c5b-94af-521852e46d6a`,
+        `https://ghibliapp.com/films/12cfb892-aac0-4c5b-94af-521852e46d6a`
     ),
     (
         `58611129-2dbc-4a81-a72f-77ddfc1b1b49`,
@@ -74,7 +72,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`, `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`, `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5` ],
         null,
         null,
-        `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`,
+        `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`
     ),
     (
         `ea660b10-85c4-4ae3-8a5f-41cea3648e3e`,
@@ -93,7 +91,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`, `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3` ],
         null,
         null,
-        `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e`,
+        `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e`
     ),
     (
         `4e236f34-b981-41c3-8c65-f8c9000b94e7`,
@@ -112,7 +110,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7`,
+        `https://ghibliapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7`
     ),
     (
         `ebbb6b7c-945c-41ee-a792-de0e43191bd8`,
@@ -131,7 +129,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8`,
+        `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8`
     ),
     (
         `1b67aa9a-2e4a-45af-ac98-64d6ad15b16c`,
@@ -150,7 +148,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/1b67aa9a-2e4a-45af-ac98-64d6ad15b16c`,
+        `https://ghibliapp.com/films/1b67aa9a-2e4a-45af-ac98-64d6ad15b16c`
     ),
     (
         `ff24da26-a969-4f0e-ba1e-a122ead6c6e3`,
@@ -169,7 +167,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3`,
+        `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3`
     ),
     (
         `0440483e-ca0e-4120-8c50-4c8cd9b965d6`,
@@ -188,7 +186,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`, `https://ghibliapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`, `https://ghibliapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7` ],
         null,
         null,
-        `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6`,
+        `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6`
     ),
     (
         `45204234-adfd-45cb-a505-a8e7a676b114`,
@@ -207,7 +205,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114`,
+        `https://ghibliapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114`
     ),
     (
         `dc2e6bd1-8156-4886-adff-b39e6043af0c`,
@@ -226,7 +224,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c`,
+        `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c`
     ),
     (
         `90b72513-afd4-4570-84de-a56c312fdf81`,
@@ -245,7 +243,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81`,
+        `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81`
     ),
     (
         `cd3d059c-09f4-4ff3-8d63-bc765a5184fa`,
@@ -264,7 +262,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa`,
+        `https://ghibliapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa`
     ),
     (
         `112c1e67-726f-40b1-ac17-6974127bb9b9`,
@@ -283,7 +281,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/112c1e67-726f-40b1-ac17-6974127bb9b9`,
+        `https://ghibliapp.com/films/112c1e67-726f-40b1-ac17-6974127bb9b9`
     ),
     (
         `758bf02e-3122-46e0-884e-67cf83df1786`,
@@ -302,7 +300,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786`,
+        `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786`
     ),
     (
         `2de9426b-914a-4a06-a3a0-5e6d9d3886f6`,
@@ -321,7 +319,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6`,
+        `https://ghibliapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6`
     ),
     (
         `45db04e4-304a-4933-9823-33f389e8d74d`,
@@ -340,7 +338,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d`,
+        `https://ghibliapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d`
     ),
     (
         `67405111-37a5-438f-81cc-4666af60c800`,
@@ -359,7 +357,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/67405111-37a5-438f-81cc-4666af60c800`,
+        `https://ghibliapp.com/films/67405111-37a5-438f-81cc-4666af60c800`
     ),
     (
         `578ae244-7750-4d9f-867b-f3cd3d6fecf4`,
@@ -378,7 +376,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4`,
+        `https://ghibliapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4`
     ),
     (
         `5fdfb320-2a02-49a7-94ff-5ca418cae602`,
@@ -397,7 +395,7 @@ values
         ARRAY [ `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2` ],
         null,
         null,
-        `https://ghibliapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602`,
+        `https://ghibliapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602`
     ),
     (
         `d868e6ec-c44a-405b-8fa6-f7f0f8cfb500`,
@@ -416,7 +414,7 @@ values
         null,
         null,
         null,
-        `https://ghibliapp.com/films/d868e6ec-c44a-405b-8fa6-f7f0f8cfb500`,
+        `https://ghibliapp.com/films/d868e6ec-c44a-405b-8fa6-f7f0f8cfb500`
     ),
     (
         `790e0028-a31c-4626-a694-86b7a8cada40`,
@@ -435,12 +433,9 @@ values
         null,
         null,
         null,
-        `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40`,
-    ),
-;
-
-insert into
-    public.people (
+        `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40`
+    );
+insert into public.people (
         id,
         name,
         gender,
@@ -451,8 +446,7 @@ insert into
         species,
         url
     )
-values
-    (
+values (
         `267649ac-fb1b-11eb-9a03-0242ac130003`,
         `Haku`,
         `Male`,
@@ -461,7 +455,7 @@ values
         `Green`,
         ARRAY [ `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c` ],
         `https://ghibliapp.com/species/e2cfaa78-fb19-11eb-9a03-0242ac130003`,
-        `https://ghibliapp.com/people/267649ac-fb1b-11eb-9a03-0242ac130003`,
+        `https://ghibliapp.com/people/267649ac-fb1b-11eb-9a03-0242ac130003`
     ),
     (
         `fe93adf2-2f3a-4ec4-9f68-5422f1b87c01`,
@@ -472,7 +466,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/fe93adf2-2f3a-4ec4-9f68-5422f1b87c01`,
+        `https://ghibliapp.com/people/fe93adf2-2f3a-4ec4-9f68-5422f1b87c01`
     ),
     (
         `598f7048-74ff-41e0-92ef-87dc1ad980a9`,
@@ -483,7 +477,7 @@ values
         `Black`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/598f7048-74ff-41e0-92ef-87dc1ad980a9`,
+        `https://ghibliapp.com/people/598f7048-74ff-41e0-92ef-87dc1ad980a9`
     ),
     (
         `3bc0b41e-3569-4d20-ae73-2da329bf0786`,
@@ -494,7 +488,7 @@ values
         `Peach`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/3bc0b41e-3569-4d20-ae73-2da329bf0786`,
+        `https://ghibliapp.com/people/3bc0b41e-3569-4d20-ae73-2da329bf0786`
     ),
     (
         `abe886e7-30c8-4c19-aaa5-d666e60d14de`,
@@ -505,7 +499,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/abe886e7-30c8-4c19-aaa5-d666e60d14de`,
+        `https://ghibliapp.com/people/abe886e7-30c8-4c19-aaa5-d666e60d14de`
     ),
     (
         `e08880d0-6938-44f3-b179-81947e7873fc`,
@@ -516,7 +510,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/e08880d0-6938-44f3-b179-81947e7873fc`,
+        `https://ghibliapp.com/people/e08880d0-6938-44f3-b179-81947e7873fc`
     ),
     (
         `5c83c12a-62d5-4e92-8672-33ac76ae1fa0`,
@@ -527,7 +521,7 @@ values
         `None`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/5c83c12a-62d5-4e92-8672-33ac76ae1fa0`,
+        `https://ghibliapp.com/people/5c83c12a-62d5-4e92-8672-33ac76ae1fa0`
     ),
     (
         `3f4c408b-0bcc-45a0-bc8b-20ffc67a2ede`,
@@ -538,7 +532,7 @@ values
         `Dark brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/3f4c408b-0bcc-45a0-bc8b-20ffc67a2ede`,
+        `https://ghibliapp.com/people/3f4c408b-0bcc-45a0-bc8b-20ffc67a2ede`
     ),
     (
         `fcb4a2ac-5e41-4d54-9bba-33068db083ca`,
@@ -549,7 +543,7 @@ values
         `Dark brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/fcb4a2ac-5e41-4d54-9bba-33068db083ca`,
+        `https://ghibliapp.com/people/fcb4a2ac-5e41-4d54-9bba-33068db083ca`
     ),
     (
         `2cb76c15-772a-4cb3-9919-3652f56611d0`,
@@ -560,7 +554,7 @@ values
         `Light brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/2cb76c15-772a-4cb3-9919-3652f56611d0`,
+        `https://ghibliapp.com/people/2cb76c15-772a-4cb3-9919-3652f56611d0`
     ),
     (
         `f6f2c477-98aa-4796-b9aa-8209fdeed6b9`,
@@ -571,7 +565,7 @@ values
         `Reddish brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/f6f2c477-98aa-4796-b9aa-8209fdeed6b9`,
+        `https://ghibliapp.com/people/f6f2c477-98aa-4796-b9aa-8209fdeed6b9`
     ),
     (
         `05d8d01b-0c2f-450e-9c55-aa0daa34838e`,
@@ -582,7 +576,7 @@ values
         `None`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/05d8d01b-0c2f-450e-9c55-aa0daa34838e`,
+        `https://ghibliapp.com/people/05d8d01b-0c2f-450e-9c55-aa0daa34838e`
     ),
     (
         `b22a684f-1819-40c8-94a6-d40c3b5e18eb`,
@@ -593,7 +587,7 @@ values
         `Orange`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/b22a684f-1819-40c8-94a6-d40c3b5e18eb`,
+        `https://ghibliapp.com/people/b22a684f-1819-40c8-94a6-d40c3b5e18eb`
     ),
     (
         `ba924631-068e-4436-b6de-f3283fa848f0`,
@@ -604,7 +598,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0`,
+        `https://ghibliapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0`
     ),
     (
         `ebe40383-aad2-4208-90ab-698f00c581ab`,
@@ -615,7 +609,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/ebe40383-aad2-4208-90ab-698f00c581ab`,
+        `https://ghibliapp.com/people/ebe40383-aad2-4208-90ab-698f00c581ab`
     ),
     (
         `34277bec-7401-43fa-a00a-5aee64b45b08`,
@@ -626,7 +620,7 @@ values
         `Black`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/34277bec-7401-43fa-a00a-5aee64b45b08`,
+        `https://ghibliapp.com/people/34277bec-7401-43fa-a00a-5aee64b45b08`
     ),
     (
         `91939012-90b9-46e5-a649-96b898073c82`,
@@ -637,7 +631,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/91939012-90b9-46e5-a649-96b898073c82`,
+        `https://ghibliapp.com/people/91939012-90b9-46e5-a649-96b898073c82`
     ),
     (
         `20e3bd33-b35d-41e6-83a4-57ca7f028d38`,
@@ -648,7 +642,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/20e3bd33-b35d-41e6-83a4-57ca7f028d38`,
+        `https://ghibliapp.com/people/20e3bd33-b35d-41e6-83a4-57ca7f028d38`
     ),
     (
         `8bccdc78-545b-49f4-a4c8-756163a38c91`,
@@ -659,7 +653,7 @@ values
         `Bald, but beard is Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/8bccdc78-545b-49f4-a4c8-756163a38c91`,
+        `https://ghibliapp.com/people/8bccdc78-545b-49f4-a4c8-756163a38c91`
     ),
     (
         `116bfe1b-3ba8-4fa0-8f72-88537a493cb9`,
@@ -670,7 +664,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/116bfe1b-3ba8-4fa0-8f72-88537a493cb9`,
+        `https://ghibliapp.com/people/116bfe1b-3ba8-4fa0-8f72-88537a493cb9`
     ),
     (
         `030555b3-4c92-4fce-93fb-e70c3ae3df8b`,
@@ -681,7 +675,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`,
-        `https://ghibliapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b`,
+        `https://ghibliapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b`
     ),
     (
         `ca568e87-4ce2-4afa-a6c5-51f4ae80a60b`,
@@ -692,7 +686,7 @@ values
         `Light Orange`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`,
-        `https://ghibliapp.com/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b`,
+        `https://ghibliapp.com/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b`
     ),
     (
         `e9356bb5-4d4a-4c93-aadc-c83e514bffe3`,
@@ -703,7 +697,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
         `https://ghibliapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7`,
-        `https://ghibliapp.com/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3`,
+        `https://ghibliapp.com/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3`
     ),
     (
         `7151abc6-1a9e-4e6a-9711-ddb50ea572ec`,
@@ -714,7 +708,7 @@ values
         `Black`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/7151abc6-1a9e-4e6a-9711-ddb50ea572ec`,
+        `https://ghibliapp.com/people/7151abc6-1a9e-4e6a-9711-ddb50ea572ec`
     ),
     (
         `986faac6-67e3-4fb8-a9ee-bad077c2e7fe`,
@@ -725,7 +719,7 @@ values
         `Dark Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/986faac6-67e3-4fb8-a9ee-bad077c2e7fe`,
+        `https://ghibliapp.com/people/986faac6-67e3-4fb8-a9ee-bad077c2e7fe`
     ),
     (
         `d5df3c04-f355-4038-833c-83bd3502b6b9`,
@@ -736,7 +730,7 @@ values
         `Light Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/d5df3c04-f355-4038-833c-83bd3502b6b9`,
+        `https://ghibliapp.com/people/d5df3c04-f355-4038-833c-83bd3502b6b9`
     ),
     (
         `3031caa8-eb1a-41c6-ab93-dd091b541e11`,
@@ -747,7 +741,7 @@ values
         `Dark Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/3031caa8-eb1a-41c6-ab93-dd091b541e11`,
+        `https://ghibliapp.com/people/3031caa8-eb1a-41c6-ab93-dd091b541e11`
     ),
     (
         `87b68b97-3774-495b-bf80-495a5f3e672d`,
@@ -758,7 +752,7 @@ values
         `Dark Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/87b68b97-3774-495b-bf80-495a5f3e672d`,
+        `https://ghibliapp.com/people/87b68b97-3774-495b-bf80-495a5f3e672d`
     ),
     (
         `08ffbce4-7f94-476a-95bc-76d3c3969c19`,
@@ -769,7 +763,7 @@ values
         `Grey`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/08ffbce4-7f94-476a-95bc-76d3c3969c19`,
+        `https://ghibliapp.com/people/08ffbce4-7f94-476a-95bc-76d3c3969c19`
     ),
     (
         `0f8ef701-b4c7-4f15-bd15-368c7fe38d0a`,
@@ -780,7 +774,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/0f8ef701-b4c7-4f15-bd15-368c7fe38d0a`,
+        `https://ghibliapp.com/people/0f8ef701-b4c7-4f15-bd15-368c7fe38d0a`
     ),
     (
         `d39deecb-2bd0-4770-8b45-485f26e1381f`,
@@ -791,7 +785,7 @@ values
         `Grey`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5`,
-        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`,
+        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`
     ),
     (
         `591524bc-04fe-4e60-8d61-2425e42ffb2a`,
@@ -802,7 +796,7 @@ values
         `Blue`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5`,
-        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`,
+        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`
     ),
     (
         `c491755a-407d-4d6e-b58a-240ec78b5061`,
@@ -813,7 +807,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5`,
-        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`,
+        `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`
     ),
     (
         `f467e18e-3694-409f-bdb3-be891ade1106`,
@@ -824,7 +818,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/f467e18e-3694-409f-bdb3-be891ade1106`,
+        `https://ghibliapp.com/people/f467e18e-3694-409f-bdb3-be891ade1106`
     ),
     (
         `89026b3a-abc4-4053-ab1a-c6d2eea68faa`,
@@ -835,7 +829,7 @@ values
         `Beige`,
         ARRAY [ `https://ghibliapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/89026b3a-abc4-4053-ab1a-c6d2eea68faa`,
+        `https://ghibliapp.com/people/89026b3a-abc4-4053-ab1a-c6d2eea68faa`
     ),
     (
         `6b3facea-ea33-47b1-96ce-3fc737b119b8`,
@@ -846,7 +840,7 @@ values
         `Beige`,
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81`, `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/6b3facea-ea33-47b1-96ce-3fc737b119b8`,
+        `https://ghibliapp.com/people/6b3facea-ea33-47b1-96ce-3fc737b119b8`
     ),
     (
         `3042818d-a8bb-4cba-8180-c19249822d57`,
@@ -857,7 +851,7 @@ values
         `Grey`,
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/3042818d-a8bb-4cba-8180-c19249822d57`,
+        `https://ghibliapp.com/people/3042818d-a8bb-4cba-8180-c19249822d57`
     ),
     (
         `58d1973f-f247-47d7-9358-e56cb0d2b5a6`,
@@ -868,7 +862,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/58d1973f-f247-47d7-9358-e56cb0d2b5a6`,
+        `https://ghibliapp.com/people/58d1973f-f247-47d7-9358-e56cb0d2b5a6`
     ),
     (
         `a3d8e70f-46a0-4e5a-b850-db01620d6b92`,
@@ -879,7 +873,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/a3d8e70f-46a0-4e5a-b850-db01620d6b92`,
+        `https://ghibliapp.com/people/a3d8e70f-46a0-4e5a-b850-db01620d6b92`
     ),
     (
         `fc196c4f-0201-4ed2-9add-c6403f7c4d32`,
@@ -890,7 +884,7 @@ values
         `Yellow`,
         ARRAY [ `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3`, `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/fc196c4f-0201-4ed2-9add-c6403f7c4d32`,
+        `https://ghibliapp.com/people/fc196c4f-0201-4ed2-9add-c6403f7c4d32`
     ),
     (
         `466bc926-2024-4653-ac63-fe52f2dc8c7b`,
@@ -901,7 +895,7 @@ values
         `Grey`,
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/466bc926-2024-4653-ac63-fe52f2dc8c7b`,
+        `https://ghibliapp.com/people/466bc926-2024-4653-ac63-fe52f2dc8c7b`
     ),
     (
         `40c005ce-3725-4f15-8409-3e1b1b14b583`,
@@ -912,7 +906,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/40c005ce-3725-4f15-8409-3e1b1b14b583`,
+        `https://ghibliapp.com/people/40c005ce-3725-4f15-8409-3e1b1b14b583`
     ),
     (
         `6523068d-f5a9-4150-bf5b-76abe6fb42c3`,
@@ -923,7 +917,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/6523068d-f5a9-4150-bf5b-76abe6fb42c3`,
+        `https://ghibliapp.com/people/6523068d-f5a9-4150-bf5b-76abe6fb42c3`
     ),
     (
         `a10f64f3-e0b6-4a94-bf30-87ad8bc51607`,
@@ -934,7 +928,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/a10f64f3-e0b6-4a94-bf30-87ad8bc51607`,
+        `https://ghibliapp.com/people/a10f64f3-e0b6-4a94-bf30-87ad8bc51607`
     ),
     (
         `2409052a-9029-4e8d-bfaf-70fd82c8e48d`,
@@ -945,7 +939,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/2409052a-9029-4e8d-bfaf-70fd82c8e48d`,
+        `https://ghibliapp.com/people/2409052a-9029-4e8d-bfaf-70fd82c8e48d`
     ),
     (
         `2a1dad70-802a-459d-8cc2-4ebd8821248b`,
@@ -956,7 +950,7 @@ values
         `NA`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
         `https://ghibliapp.com/species/`,
-        `https://ghibliapp.com/people/2a1dad70-802a-459d-8cc2-4ebd8821248b`,
+        `https://ghibliapp.com/people/2a1dad70-802a-459d-8cc2-4ebd8821248b`
     ),
     (
         `8228751c-bdc1-4b8d-a6eb-ca0eb909568f`,
@@ -967,7 +961,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/8228751c-bdc1-4b8d-a6eb-ca0eb909568f`,
+        `https://ghibliapp.com/people/8228751c-bdc1-4b8d-a6eb-ca0eb909568f`
     ),
     (
         `1c1a8054-3a34-4185-bfcf-e8011506f09a`,
@@ -978,7 +972,7 @@ values
         `Red`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/1c1a8054-3a34-4185-bfcf-e8011506f09a`,
+        `https://ghibliapp.com/people/1c1a8054-3a34-4185-bfcf-e8011506f09a`
     ),
     (
         `bc838920-7849-43ea-bfb8-7d5e98dc20b6`,
@@ -989,7 +983,7 @@ values
         `Reddish brown`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/bc838920-7849-43ea-bfb8-7d5e98dc20b6`,
+        `https://ghibliapp.com/people/bc838920-7849-43ea-bfb8-7d5e98dc20b6`
     ),
     (
         `33f5fea9-c21b-490b-90e0-c4051c372826`,
@@ -1000,7 +994,7 @@ values
         `Dirty Blond`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/33f5fea9-c21b-490b-90e0-c4051c372826`,
+        `https://ghibliapp.com/people/33f5fea9-c21b-490b-90e0-c4051c372826`
     ),
     (
         `d1de1c0e-3fcd-4cef-94eb-bb95cc2314aa`,
@@ -1011,7 +1005,7 @@ values
         `Light Gray`,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/d1de1c0e-3fcd-4cef-94eb-bb95cc2314aa`,
+        `https://ghibliapp.com/people/d1de1c0e-3fcd-4cef-94eb-bb95cc2314aa`
     ),
     (
         `2d66e2eb-5a74-4721-a5b3-c556497bdb66`,
@@ -1022,7 +1016,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/2d66e2eb-5a74-4721-a5b3-c556497bdb66`,
+        `https://ghibliapp.com/people/2d66e2eb-5a74-4721-a5b3-c556497bdb66`
     ),
     (
         `56c94dae-3290-472f-ad2e-0a6444956b51`,
@@ -1033,7 +1027,7 @@ values
         `Blue`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/56c94dae-3290-472f-ad2e-0a6444956b51`,
+        `https://ghibliapp.com/people/56c94dae-3290-472f-ad2e-0a6444956b51`
     ),
     (
         `5caa6a3c-7d44-47d1-afc6-12fffad28889`,
@@ -1044,7 +1038,7 @@ values
         `Brown`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/5caa6a3c-7d44-47d1-afc6-12fffad28889`,
+        `https://ghibliapp.com/people/5caa6a3c-7d44-47d1-afc6-12fffad28889`
     ),
     (
         `374561e6-aa8e-4d20-8579-806e589c0f31`,
@@ -1055,7 +1049,7 @@ values
         `Red`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/374561e6-aa8e-4d20-8579-806e589c0f31`,
+        `https://ghibliapp.com/people/374561e6-aa8e-4d20-8579-806e589c0f31`
     ),
     (
         `e9177769-9b6b-49c2-9820-d24f50b83ad9`,
@@ -1066,7 +1060,7 @@ values
         `Black`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
-        `https://ghibliapp.com/people/e9177769-9b6b-49c2-9820-d24f50b83ad9`,
+        `https://ghibliapp.com/people/e9177769-9b6b-49c2-9820-d24f50b83ad9`
     ),
     (
         `835f8c7c-2fc6-4f54-b545-c02ab066cd69`,
@@ -1077,12 +1071,9 @@ values
         `Blonde`,
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
         `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
-        `https://ghibliapp.com/people/835f8c7c-2fc6-4f54-b545-c02ab066cd69`,
-    ),
-;
-
-insert into
-    public.locations (
+        `https://ghibliapp.com/people/835f8c7c-2fc6-4f54-b545-c02ab066cd69`
+    );
+insert into public.locations (
         id,
         name,
         climate,
@@ -1092,8 +1083,7 @@ insert into
         films,
         url
     )
-values
-    (
+values (
         `11014596-71b0-4b3e-b8c0-1c4b15f28b9a`,
         `Irontown`,
         `Continental`,
@@ -1101,7 +1091,7 @@ values
         `40`,
         ARRAY [ `https://ghibliapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0`, `https://ghibliapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b` ],
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `https://ghibliapp.com/locations/11014596-71b0-4b3e-b8c0-1c4b15f28b9a`,
+        `https://ghibliapp.com/locations/11014596-71b0-4b3e-b8c0-1c4b15f28b9a`
     ),
     (
         `64a996aa-481e-4627-9624-ab23f59a05a9`,
@@ -1111,7 +1101,7 @@ values
         `50`,
         ARRAY [ `https://ghibliapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0`, `https://ghibliapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b` ],
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `https://ghibliapp.com/locations/64a996aa-481e-4627-9624-ab23f59a05a9`,
+        `https://ghibliapp.com/locations/64a996aa-481e-4627-9624-ab23f59a05a9`
     ),
     (
         `a8bd9c03-7c80-4a97-b7c0-6a668acaf576`,
@@ -1121,7 +1111,7 @@ values
         `30`,
         ARRAY [ `https://ghibliapp.com/people/6b3facea-ea33-47b1-96ce-3fc737b119b8`, `https://ghibliapp.com/people/3042818d-a8bb-4cba-8180-c19249822d57`, `https://ghibliapp.com/people/58d1973f-f247-47d7-9358-e56cb0d2b5a6`, `https://ghibliapp.com/people/a3d8e70f-46a0-4e5a-b850-db01620d6b92`, `https://ghibliapp.com/people/fc196c4f-0201-4ed2-9add-c6403f7c4d32` ],
         ARRAY [ `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81` ],
-        `https://ghibliapp.com/locations/a8bd9c03-7c80-4a97-b7c0-6a668acaf576`,
+        `https://ghibliapp.com/locations/a8bd9c03-7c80-4a97-b7c0-6a668acaf576`
     ),
     (
         `56e423c4-d9a1-44c4-8bdb-1cab45fbf63e`,
@@ -1131,7 +1121,7 @@ values
         `60`,
         ARRAY [ ],
         ARRAY [ `https://ghibliapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602` ],
-        `https://ghibliapp.com/locations/56e423c4-d9a1-44c4-8bdb-1cab45fbf63e`,
+        `https://ghibliapp.com/locations/56e423c4-d9a1-44c4-8bdb-1cab45fbf63e`
     ),
     (
         `660c8c91-bd92-43db-b475-b2df6ca96fec`,
@@ -1141,7 +1131,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
-        `https://ghibliapp.com/locations/660c8c91-bd92-43db-b475-b2df6ca96fec`,
+        `https://ghibliapp.com/locations/660c8c91-bd92-43db-b475-b2df6ca96fec`
     ),
     (
         `6ba60a86-7c74-4ec4-a6f4-7112b5705a2f`,
@@ -1151,7 +1141,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/locations/6ba60a86-7c74-4ec4-a6f4-7112b5705a2f`,
+        `https://ghibliapp.com/locations/6ba60a86-7c74-4ec4-a6f4-7112b5705a2f`
     ),
     (
         `fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2`,
@@ -1161,7 +1151,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
-        `https://ghibliapp.com/locations/fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2`,
+        `https://ghibliapp.com/locations/fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2`
     ),
     (
         `a072ec53-0467-4fac-864f-df234f9c4315`,
@@ -1171,7 +1161,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c` ],
-        `https://ghibliapp.com/locations/a072ec53-0467-4fac-864f-df234f9c4315`,
+        `https://ghibliapp.com/locations/a072ec53-0467-4fac-864f-df234f9c4315`
     ),
     (
         `682df5c3-b09e-46af-94d1-ae0d17f9b4b6`,
@@ -1181,7 +1171,7 @@ values
         `10`,
         null,
         ARRAY [ `https://ghibliapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114`, `https://ghibliapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4` ],
-        `https://ghibliapp.com/locations/682df5c3-b09e-46af-94d1-ae0d17f9b4b6`,
+        `https://ghibliapp.com/locations/682df5c3-b09e-46af-94d1-ae0d17f9b4b6`
     ),
     (
         `26361a2c-32c6-4bd5-ae9c-8e40e17ae28d`,
@@ -1191,7 +1181,7 @@ values
         `0`,
         null,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/locations/26361a2c-32c6-4bd5-ae9c-8e40e17ae28d`,
+        `https://ghibliapp.com/locations/26361a2c-32c6-4bd5-ae9c-8e40e17ae28d`
     ),
     (
         `42f787d8-1fcb-4d3d-82f2-a74409869368`,
@@ -1201,7 +1191,7 @@ values
         `0`,
         null,
         ARRAY [ `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3` ],
-        `https://ghibliapp.com/locations/42f787d8-1fcb-4d3d-82f2-a74409869368`,
+        `https://ghibliapp.com/locations/42f787d8-1fcb-4d3d-82f2-a74409869368`
     ),
     (
         `0fafa7a3-64c1-43fe-881b-ecb605c01e09`,
@@ -1211,7 +1201,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/locations/0fafa7a3-64c1-43fe-881b-ecb605c01e09`,
+        `https://ghibliapp.com/locations/0fafa7a3-64c1-43fe-881b-ecb605c01e09`
     ),
     (
         `0132f7f6-fd52-4ac3-b5df-c96b609f77b6`,
@@ -1221,7 +1211,7 @@ values
         `30`,
         null,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/locations/0132f7f6-fd52-4ac3-b5df-c96b609f77b6`,
+        `https://ghibliapp.com/locations/0132f7f6-fd52-4ac3-b5df-c96b609f77b6`
     ),
     (
         `c57fb2cb-ea85-4d73-8808-cf5dcd28c22e`,
@@ -1231,7 +1221,7 @@ values
         `50`,
         null,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
-        `https://ghibliapp.com/locations/c57fb2cb-ea85-4d73-8808-cf5dcd28c22e`,
+        `https://ghibliapp.com/locations/c57fb2cb-ea85-4d73-8808-cf5dcd28c22e`
     ),
     (
         `615aa48d-8673-4117-b35a-79cb67af1897`,
@@ -1241,7 +1231,7 @@ values
         `60`,
         null,
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `https://ghibliapp.com/locations/615aa48d-8673-4117-b35a-79cb67af1897`,
+        `https://ghibliapp.com/locations/615aa48d-8673-4117-b35a-79cb67af1897`
     ),
     (
         `37d13a96-a03a-451d-8871-80be0495486e`,
@@ -1251,7 +1241,7 @@ values
         `70`,
         null,
         ARRAY [ `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c` ],
-        `https://ghibliapp.com/locations/37d13a96-a03a-451d-8871-80be0495486e`,
+        `https://ghibliapp.com/locations/37d13a96-a03a-451d-8871-80be0495486e`
     ),
     (
         `6fc21b76-78fb-4451-98f7-857e32a23e85`,
@@ -1261,7 +1251,7 @@ values
         `60`,
         null,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
-        `https://ghibliapp.com/locations/6fc21b76-78fb-4451-98f7-857e32a23e85`,
+        `https://ghibliapp.com/locations/6fc21b76-78fb-4451-98f7-857e32a23e85`
     ),
     (
         `dbeeaecb-7817-4b8b-90ca-edc432d3033e`,
@@ -1271,7 +1261,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7` ],
-        `https://ghibliapp.com/locations/dbeeaecb-7817-4b8b-90ca-edc432d3033e`,
+        `https://ghibliapp.com/locations/dbeeaecb-7817-4b8b-90ca-edc432d3033e`
     ),
     (
         `34df8f25-8f80-4823-8f01-bf9852039987`,
@@ -1281,7 +1271,7 @@ values
         `40`,
         null,
         ARRAY [ `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8` ],
-        `https://ghibliapp.com/locations/34df8f25-8f80-4823-8f01-bf9852039987`,
+        `https://ghibliapp.com/locations/34df8f25-8f80-4823-8f01-bf9852039987`
     ),
     (
         `62346d33-caa0-4c17-8016-0aca56f3066b`,
@@ -1291,7 +1281,7 @@ values
         `30`,
         null,
         ARRAY [ `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e` ],
-        `https://ghibliapp.com/locations/62346d33-caa0-4c17-8016-0aca56f3066b`,
+        `https://ghibliapp.com/locations/62346d33-caa0-4c17-8016-0aca56f3066b`
     ),
     (
         `ee897b2a-405e-42b9-bff4-8b51b0f03cab`,
@@ -1301,7 +1291,7 @@ values
         `60`,
         null,
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
-        `https://ghibliapp.com/locations/ee897b2a-405e-42b9-bff4-8b51b0f03cab`,
+        `https://ghibliapp.com/locations/ee897b2a-405e-42b9-bff4-8b51b0f03cab`
     ),
     (
         `90241c46-d4be-411f-b00a-7561b9dda7b6`,
@@ -1311,7 +1301,7 @@ values
         `100`,
         null,
         ARRAY [ `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786` ],
-        `https://ghibliapp.com/locations/90241c46-d4be-411f-b00a-7561b9dda7b6`,
+        `https://ghibliapp.com/locations/90241c46-d4be-411f-b00a-7561b9dda7b6`
     ),
     (
         `469b14bd-5565-4436-bbed-c2036f42cc99`,
@@ -1321,7 +1311,7 @@ values
         `50`,
         null,
         ARRAY [ `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786` ],
-        `https://ghibliapp.com/locations/469b14bd-5565-4436-bbed-c2036f42cc99`,
+        `https://ghibliapp.com/locations/469b14bd-5565-4436-bbed-c2036f42cc99`
     ),
     (
         `b6bac992-a858-4d57-8477-9652d73caaa1`,
@@ -1331,7 +1321,7 @@ values
         `30`,
         null,
         ARRAY [ `https://ghibliapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa` ],
-        `https://ghibliapp.com/locations/b6bac992-a858-4d57-8477-9652d73caaa1`,
+        `https://ghibliapp.com/locations/b6bac992-a858-4d57-8477-9652d73caaa1`
     ),
     (
         `398e3e1e-9912-4eb6-91fe-a9f8b932b67d`,
@@ -1341,12 +1331,9 @@ values
         ``,
         ARRAY [ `https://ghibliapp.com/people/2d66e2eb-5a74-4721-a5b3-c556497bdb66`, `https://ghibliapp.com/people/835f8c7c-2fc6-4f54-b545-c02ab066cd69` ],
         ARRAY [ `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
-        `https://ghibliapp.com/locations/398e3e1e-9912-4eb6-91fe-a9f8b932b67d`,
-    ),
-;
-
-insert into
-    public.species (
+        `https://ghibliapp.com/locations/398e3e1e-9912-4eb6-91fe-a9f8b932b67d`
+    );
+insert into public.species (
         id,
         name,
         classification,
@@ -1356,8 +1343,7 @@ insert into
         films,
         url
     )
-values
-    (
+values (
         `af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
         `Human`,
         `Mammal`,
@@ -1365,7 +1351,7 @@ values
         `Black, Blonde, Brown, Grey, White`,
         ARRAY [ `https://ghibliapp.com/people/ba924631-068e-4436-b6de-f3283fa848f0`, `https://ghibliapp.com/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3`, `https://ghibliapp.com/people/34277bec-7401-43fa-a00a-5aee64b45b08`, `https://ghibliapp.com/people/91939012-90b9-46e5-a649-96b898073c82`, `https://ghibliapp.com/people/20e3bd33-b35d-41e6-83a4-57ca7f028d38`, `https://ghibliapp.com/people/8bccdc78-545b-49f4-a4c8-756163a38c91`, `https://ghibliapp.com/people/116bfe1b-3ba8-4fa0-8f72-88537a493cb9`, `https://ghibliapp.com/people/986faac6-67e3-4fb8-a9ee-bad077c2e7fe`, `https://ghibliapp.com/people/d5df3c04-f355-4038-833c-83bd3502b6b9`, `https://ghibliapp.com/people/3031caa8-eb1a-41c6-ab93-dd091b541e11`, `https://ghibliapp.com/people/87b68b97-3774-495b-bf80-495a5f3e672d`, `https://ghibliapp.com/people/08ffbce4-7f94-476a-95bc-76d3c3969c19`, `https://ghibliapp.com/people/0f8ef701-b4c7-4f15-bd15-368c7fe38d0a`, `https://ghibliapp.com/people/2409052a-9029-4e8d-bfaf-70fd82c8e48d`, `https://ghibliapp.com/people/8228751c-bdc1-4b8d-a6eb-ca0eb909568f`, `https://ghibliapp.com/people/1c1a8054-3a34-4185-bfcf-e8011506f09a`, `https://ghibliapp.com/people/bc838920-7849-43ea-bfb8-7d5e98dc20b6`, `https://ghibliapp.com/people/d1de1c0e-3fcd-4cef-94eb-bb95cc2314aa`, `https://ghibliapp.com/people/33f5fea9-c21b-490b-90e0-c4051c372826`, `https://ghibliapp.com/people/2d66e2eb-5a74-4721-a5b3-c556497bdb66`, `https://ghibliapp.com/people/56c94dae-3290-472f-ad2e-0a6444956b51`, `https://ghibliapp.com/people/5caa6a3c-7d44-47d1-afc6-12fffad28889`, `https://ghibliapp.com/people/835f8c7c-2fc6-4f54-b545-c02ab066cd69` ],
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe`, `https://ghibliapp.com/films/12cfb892-aac0-4c5b-94af-521852e46d6a`, `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`, `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e`, `https://ghibliapp.com/films/4e236f34-b981-41c3-8c65-f8c9000b94e7`, `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8`, `https://ghibliapp.com/films/1b67aa9a-2e4a-45af-ac98-64d6ad15b16c`, `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3`, `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6`, `https://ghibliapp.com/films/45204234-adfd-45cb-a505-a8e7a676b114`, `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c`, `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81`, `https://ghibliapp.com/films/cd3d059c-09f4-4ff3-8d63-bc765a5184fa`, `https://ghibliapp.com/films/112c1e67-726f-40b1-ac17-6974127bb9b9`, `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786`, `https://ghibliapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6`, `https://ghibliapp.com/films/45db04e4-304a-4933-9823-33f389e8d74d`, `https://ghibliapp.com/films/67405111-37a5-438f-81cc-4666af60c800`, `https://ghibliapp.com/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4`, `https://ghibliapp.com/films/5fdfb320-2a02-49a7-94ff-5ca418cae602`, `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
-        `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`,
+        `https://ghibliapp.com/species/af3910a6-429f-4c74-9ad5-dfe1c4aa04f2`
     ),
     (
         `6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`,
@@ -1375,7 +1361,7 @@ values
         `Brown, Light Orange`,
         ARRAY [ `https://ghibliapp.com/people/030555b3-4c92-4fce-93fb-e70c3ae3df8b`, `https://ghibliapp.com/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b` ],
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `https://ghibliapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`,
+        `https://ghibliapp.com/species/6bc92fdd-b0f4-4286-ad71-1f99fb4a0d1e`
     ),
     (
         `b5a92d0e-5fb4-43d4-ba60-c012135958e4`,
@@ -1385,7 +1371,7 @@ values
         `Light Orange`,
         ARRAY [ `https://ghibliapp.com/people/ca568e87-4ce2-4afa-a6c5-51f4ae80a60b` ],
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `htps://ghibliapp.com/species/b5a92d0e-5fb4-43d4-ba60-c012135958e4`,
+        `htps://ghibliapp.com/species/b5a92d0e-5fb4-43d4-ba60-c012135958e4`
     ),
     (
         `f25fa661-3073-414d-968a-ab062e3065f7`,
@@ -1395,7 +1381,7 @@ values
         `White`,
         ARRAY [ `https://ghibliapp.com/people/e9356bb5-4d4a-4c93-aadc-c83e514bffe3` ],
         ARRAY [ `https://ghibliapp.com/films/0440483e-ca0e-4120-8c50-4c8cd9b965d6` ],
-        `https://ghibliapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7`,
+        `https://ghibliapp.com/species/f25fa661-3073-414d-968a-ab062e3065f7`
     ),
     (
         `603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
@@ -1405,7 +1391,7 @@ values
         `White, Black, Brown, Beige, Grey, Yellow`,
         ARRAY [ `https://ghibliapp.com/people/7151abc6-1a9e-4e6a-9711-ddb50ea572ec`, `https://ghibliapp.com/people/f467e18e-3694-409f-bdb3-be891ade1106`, `https://ghibliapp.com/people/89026b3a-abc4-4053-ab1a-c6d2eea68faa`, `https://ghibliapp.com/people/6b3facea-ea33-47b1-96ce-3fc737b119b8`, `https://ghibliapp.com/people/3042818d-a8bb-4cba-8180-c19249822d57`, `https://ghibliapp.com/people/58d1973f-f247-47d7-9358-e56cb0d2b5a6`, `https://ghibliapp.com/people/a3d8e70f-46a0-4e5a-b850-db01620d6b92`, `https://ghibliapp.com/people/fc196c4f-0201-4ed2-9add-c6403f7c4d32`, `https://ghibliapp.com/people/466bc926-2024-4653-ac63-fe52f2dc8c7b`, `https://ghibliapp.com/people/e9177769-9b6b-49c2-9820-d24f50b83ad9` ],
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49`, `https://ghibliapp.com/films/ea660b10-85c4-4ae3-8a5f-41cea3648e3e`, `https://ghibliapp.com/films/ff24da26-a969-4f0e-ba1e-a122ead6c6e3`, `https://ghibliapp.com/films/90b72513-afd4-4570-84de-a56c312fdf81`, `https://ghibliapp.com/films/2de9426b-914a-4a06-a3a0-5e6d9d3886f6`, `https://ghibliapp.com/films/790e0028-a31c-4626-a694-86b7a8cada40` ],
-        `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`,
+        `https://ghibliapp.com/species/603428ba-8a86-4b0b-a9f1-65df6abef3d3`
     ),
     (
         `74b7f547-1577-4430-806c-c358c8b6bcf5`,
@@ -1415,7 +1401,7 @@ values
         `Grey`,
         ARRAY [ `https://ghibliapp.com/people/d39deecb-2bd0-4770-8b45-485f26e1381f`, `https://ghibliapp.com/people/591524bc-04fe-4e60-8d61-2425e42ffb2a`, `https://ghibliapp.com/people/c491755a-407d-4d6e-b58a-240ec78b5061` ],
         ARRAY [ `https://ghibliapp.com/films/58611129-2dbc-4a81-a72f-77ddfc1b1b49` ],
-        `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5`,
+        `https://ghibliapp.com/species/74b7f547-1577-4430-806c-c358c8b6bcf5`
     ),
     (
         `e2cfaa78-fb19-11eb-9a03-0242ac130003`,
@@ -1425,12 +1411,9 @@ values
         `White, Green, Gray`,
         ARRAY [ `https://ghibliapp.com/people/267649ac-fb1b-11eb-9a03-0242ac130003` ],
         ARRAY [ `https://ghibliapp.com/films/dc2e6bd1-8156-4886-adff-b39e6043af0c`, `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/species/e2cfaa78-fb19-11eb-9a03-0242ac130003`,
-    ),
-;
-
-insert into
-    public.vehicles (
+        `https://ghibliapp.com/species/e2cfaa78-fb19-11eb-9a03-0242ac130003`
+    );
+insert into public.vehicles (
         id,
         name,
         description,
@@ -1440,8 +1423,7 @@ insert into
         films,
         url
     )
-values
-    (
+values (
         `4e09b023-f650-4747-9ab9-eacf14540cfb`,
         `Air Destroyer Goliath`,
         `A military airship utilized by the government to access Laputa`,
@@ -1449,7 +1431,7 @@ values
         `1,000`,
         `https://ghibliapp.com/people/40c005ce-3725-4f15-8409-3e1b1b14b583`,
         ARRAY [ `https://ghibliapp.com/films/2baf70d1-42bb-4437-b551-e5fed5a87abe` ],
-        `https://ghibliapp.com/vehicles/4e09b023-f650-4747-9ab9-eacf14540cfb`,
+        `https://ghibliapp.com/vehicles/4e09b023-f650-4747-9ab9-eacf14540cfb`
     ),
     (
         `d8f893b5-1dd9-41a1-9918-0099c1aa2de8`,
@@ -1459,7 +1441,7 @@ values
         `20`,
         `https://ghibliapp.com/people/6523068d-f5a9-4150-bf5b-76abe6fb42c3`,
         ARRAY [ `https://ghibliapp.com/films/ebbb6b7c-945c-41ee-a792-de0e43191bd8` ],
-        `https://ghibliapp.com/vehicles/d8f893b5-1dd9-41a1-9918-0099c1aa2de8`,
+        `https://ghibliapp.com/vehicles/d8f893b5-1dd9-41a1-9918-0099c1aa2de8`
     ),
     (
         `923d70c9-8f15-4972-ad53-0128b261d628`,
@@ -1469,6 +1451,5 @@ values
         `10`,
         `https://ghibliapp.com/people/a10f64f3-e0b6-4a94-bf30-87ad8bc51607`,
         ARRAY [ `https://ghibliapp.com/films/758bf02e-3122-46e0-884e-67cf83df1786` ],
-        `https://ghibliapp.com/vehicles/923d70c9-8f15-4972-ad53-0128b261d628`,
-    ),
-;
+        `https://ghibliapp.com/vehicles/923d70c9-8f15-4972-ad53-0128b261d628`
+    );
