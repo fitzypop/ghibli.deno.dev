@@ -2,7 +2,7 @@
 
 I'm porting over the og ghibli api to deno and supabase.
 
-![](https://media.giphy.com/media/ASy3PKVFnk7ZK/giphy.gif)
+![Totoro](https://media.giphy.com/media/ASy3PKVFnk7ZK/giphy.gif)
 
 ## Updates
 
