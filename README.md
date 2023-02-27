@@ -11,7 +11,7 @@ I'm porting over the og ghibli api to deno and supabase.
 ## Features todo
 
 - [x] Migrate data.json to seed.sql for supabase
-- [ ] Run migrations on commit to main to supabase project
+- [x] Run migrations on commit to main to supabase project
 - ~~[ ] Make api with Oak~~
 - [x] Make api with Fresh
 - [x] Set public policies for tables
