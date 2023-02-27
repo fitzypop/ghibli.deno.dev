@@ -15,7 +15,7 @@ I'm porting over the og ghibli api to deno and supabase.
 - ~~[ ] Make api with Oak~~
 - [x] Make api with Fresh
 - [ ] Set public policies for tables
-- [ ] Add supabase keys to env and Deno Deploy
+- [x] Add supabase keys to env and Deno Deploy
 - [ ] Qurey supabase
 - [ ] ???
 - [ ] PROFIT!
