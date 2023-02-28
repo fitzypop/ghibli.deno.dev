@@ -18,7 +18,7 @@ I'm porting over the og ghibli api to deno and supabase.
 - [x] Set public policies for tables
 - [x] Add supabase keys to env and Deno Deploy
 - [x] Query supabase
-- [ ] Add 'fields' param to endpoints
-- [ ] Add limit to 'GET ALL' endpoints
+- [x] Add 'fields' param to endpoints
+- [x] Add limit to 'GET ALL' endpoints
 - [ ] ???
 - [ ] PROFIT!
