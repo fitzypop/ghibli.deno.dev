@@ -3,6 +3,6 @@ import { getAllAction } from "@/utils/actions.ts";
 
 export const handler: Handlers = {
   async GET(req, _ctx) {
-    return await getAllAction("species", req);
+    return await getAllAction("species", req.url);
   },
 };
