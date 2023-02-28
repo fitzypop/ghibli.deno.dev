@@ -4,6 +4,6 @@ export function validateUUID(id: string) {
   return validate(id);
 }
 
-export function validateCommaStr(param: string) {
-  return false;
-}
+// export function validateCommaStr(param: string) {
+//   return false;
+// }
