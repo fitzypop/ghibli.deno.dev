@@ -6,6 +6,7 @@ I'm porting over the og ghibli api to deno and supabase.
 
 ## Updates
 
+2/28/23 - Getting close to feature parity with the jsonServe ghibliapi.  
 2/27/23 - Naive implementation for endpoints completed. Still need to add optional search params.  
 2/26/23 - Finally created a functional migration script to parse `data.json` to `seed.sql` for supabase.  
 
@@ -20,5 +21,6 @@ I'm porting over the og ghibli api to deno and supabase.
 - [x] Query supabase
 - [x] Add 'fields' param to endpoints
 - [x] Add limit to 'GET ALL' endpoints
+- [ ] Add validators for paramr
 - [ ] ???
 - [ ] PROFIT!
