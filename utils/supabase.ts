@@ -1,4 +1,5 @@
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2.8.0";
+// import { PostgrestError } from "https://esm.sh/v108/@supabase/supabase-js@2.8.0/dist/module/index";
 
 export const supabase = createClient(
   Deno.env.get("SUPABASE_URL") || "url not found",
@@ -30,3 +31,6 @@ export async function selectSingle(
 ) {
   return await supabase.from(tableName).select(options?.fields || "*").single();
 }
+
+// export function handleQueryError(error: PostgrestError | null) {
+// }

@@ -44,6 +44,3 @@ export function getQueryParams(requestUrl: string) {
     fields: url.searchParams.get("fields"),
   };
 }
-
-// export function handleQueryError(error: PostgrestError | null) {
-// }
