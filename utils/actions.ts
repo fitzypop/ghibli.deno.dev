@@ -1,6 +1,6 @@
 import { HandlerContext } from "$fresh/server.ts";
 import { validateUUID } from "@/utils/validate.ts";
-import { selectSupabase } from "@/utils/supabase.ts";
+import { selectAll, selectSingle } from "@/utils/supabase.ts";
 
 export async function getSingleAction(
   enpointName: string,
@@ -11,14 +11,13 @@ export async function getSingleAction(
 
   if (!validateUUID(id)) {
     const msg = `invalid ${enpointName} id`;
-    console.error(`${msg}: ${id}`);
+    console.error(`${msg}: ${id}`); // TODO maybe log to supabase?
     return new Response(JSON.stringify({ error: msg, status: 404, id }), {
       status: 404,
     });
   }
 
-  const { data, error } = await selectSupabase(enpointName, {
-    single: true,
+  const { data, error } = await selectSingle(enpointName, {
     ...getQueryParams(req),
   });
 
@@ -31,7 +30,7 @@ export async function getSingleAction(
 }
 
 export async function getAllAction(endpointName: string, req: Request) {
-  const { data, error } = await selectSupabase(endpointName, {
+  const { data, error } = await selectAll(endpointName, {
     ...getQueryParams(req),
   });
   if (error) console.error(error);
@@ -41,6 +40,7 @@ export async function getAllAction(endpointName: string, req: Request) {
 
 export function getQueryParams(req: Request) {
   const url = new URL(req.url);
+  // TODO add validators
   return {
     limit: url.searchParams.get("limit"),
     fields: url.searchParams.get("fields"),

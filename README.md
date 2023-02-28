@@ -21,6 +21,6 @@ I'm porting over the og ghibli api to deno and supabase.
 - [x] Query supabase
 - [x] Add 'fields' param to endpoints
 - [x] Add limit to 'GET ALL' endpoints
-- [ ] Add validators for paramr
+- [ ] Add validators for params
 - [ ] ???
 - [ ] PROFIT!
