@@ -1,8 +1,8 @@
 import { Handlers } from "$fresh/server.ts";
-import { controller } from "@/utils/controller.ts";
+import { getSingleAction } from "@/utils/actions.ts";
 
 export const handler: Handlers = {
-  async GET(_req, ctx) {
-    return await controller("species", ctx);
+  async GET(req, ctx) {
+    return await getSingleAction("species", req, ctx);
   },
 };

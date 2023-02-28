@@ -1,8 +1,8 @@
 import { HandlerContext } from "$fresh/server.ts";
-import { supabase } from "@/utils/supabase.ts";
 import { validateUUID } from "@/utils/validate.ts";
+import { selectSupabase } from "@/utils/supabase.ts";
 
-export async function controller(
+export async function getSingleAction(
   enpointName: string,
   req: Request,
   ctx: HandlerContext,
@@ -17,17 +17,22 @@ export async function controller(
     });
   }
 
-  const { fields } = getQueryParams(req);
-
-  let query = supabase.from(enpointName).select(fields || "*").eq(
-    "id",
-    id,
-  );
-
-  const { data, error } = await query.single();
+  const { data, error } = await selectSupabase(enpointName, {
+    single: true,
+    ...getQueryParams(req),
+  });
 
   // TODO improve error handling here
   if (error) console.error(error);
+  return new Response(JSON.stringify(data));
+}
+
+export async function getAllAction(endpointName: string, req: Request) {
+  const { data, error } = await selectSupabase(endpointName, {
+    ...getQueryParams(req),
+  });
+  if (error) console.error(error);
+
   return new Response(JSON.stringify(data));
 }
 

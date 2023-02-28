@@ -1,10 +1,8 @@
 import { Handlers } from "$fresh/server.ts";
-import { supabase } from "@/utils/supabase.ts";
+import { getAllAction } from "@/utils/actions.ts";
 
 export const handler: Handlers = {
-  async GET(_req, _ctx) {
-    const { data, error } = await supabase.from("people").select();
-    if (error) console.error(error);
-    return new Response(JSON.stringify(data));
+  async GET(req, _ctx) {
+    return await getAllAction("people", req);
   },
 };
