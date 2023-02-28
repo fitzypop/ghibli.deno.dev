@@ -1,6 +1,5 @@
 import { validateUUID } from "@/utils/validate.ts";
 import { selectAll, selectSingle } from "@/utils/supabase.ts";
-// import { PostgrestError } from "https://esm.sh/v108/@supabase/supabase-js@2.8.0/dist/module/index";
 
 export async function getSingleAction(
   enpointName: string,
