@@ -22,8 +22,11 @@ export async function getSingleAction(
     ...getQueryParams(req),
   });
 
-  // TODO improve error handling here
-  if (error) console.error(error);
+  if (error) {
+    console.error(error);
+    // TODO improve error handling here
+    // ie check status and text
+  }
   return new Response(JSON.stringify(data));
 }
 

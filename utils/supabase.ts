@@ -13,12 +13,12 @@ export async function selectSupabase(
     single?: boolean | null;
   },
 ) {
-  const limit = options?.limit;
+  const limit = Number(options?.limit);
   const single = options?.single;
 
   let query = supabase.from(tableName).select(options?.fields || "*");
-  if (limit && !single && !!Number(limit)) {
-    query = query.limit(Number(limit));
+  if (!!limit && !single) {
+    query = query.limit(limit);
   }
 
   return single ? await query.single() : await query;
