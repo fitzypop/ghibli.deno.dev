@@ -25,11 +25,15 @@ export async function selectAll(
 
 export async function selectSingle(
   tableName: string,
+  id: string,
   options?: {
     fields?: string | null;
   },
 ) {
-  return await supabase.from(tableName).select(options?.fields || "*").single();
+  return await supabase.from(tableName).select(options?.fields || "*").eq(
+    "id",
+    id,
+  ).single();
 }
 
 // export function handleQueryError(error: PostgrestError | null) {
