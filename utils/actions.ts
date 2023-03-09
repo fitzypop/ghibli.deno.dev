@@ -1,5 +1,5 @@
-import { validateUUID } from "@/utils/validate.ts";
-import { selectAll, selectSingle } from "@/utils/supabase.ts";
+import { validateUUID } from "~/utils/validate.ts";
+import { selectAll, selectSingle } from "~/utils/supabase.ts";
 import { PostgrestError } from "https://esm.sh/v108/@supabase/postgrest-js@1.4.1/dist/module/types";
 
 function selectErrorResponse(error: PostgrestError, id?: string) {
