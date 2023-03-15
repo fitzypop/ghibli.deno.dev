@@ -5,13 +5,10 @@ export default function Home() {
     <>
       <Head>
         <title>Studio Ghibli API</title>
-        {
-          /* <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> */
-        }
+        {/* <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> */}
 
-        <style>
-        </style>
+        <style></style>
       </Head>
       <body
         style={{
@@ -20,8 +17,7 @@ export default function Home() {
         }}
       >
         <redoc spec-url="swagger.yaml"></redoc>
-        <script src="https://rebilly.github.io/ReDoc/releases/latest/redoc.min.js">
-        </script>
+        <script src="https://rebilly.github.io/ReDoc/releases/latest/redoc.min.js"></script>
       </body>
     </>
   );
