@@ -3,7 +3,7 @@
 I'm porting over the og ghibli api to deno and supabase.
 
 > ! This repo is no longer maintained. I can't afford to run a paid Supabase instance right now. 
-> The new repo is available [here](https://github.com/fitzypop/ghibli.deno.dev.2.0), it import the json data directly in code.
+> The new repo is available [here](https://github.com/fitzypop/ghibli.deno.dev.2.0), it uses deno json imports for data.
 
 ![Totoro](https://media.giphy.com/media/ASy3PKVFnk7ZK/giphy.gif)
 
