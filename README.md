@@ -2,6 +2,9 @@
 
 I'm porting over the og ghibli api to deno and supabase.
 
+> ! This repo is no longer maintained. I can't afford to run a paid Supabase instance right now. 
+> The new repo is available [here](https://github.com/fitzypop/ghibli.deno.dev.2.0), it import the json data directly in code.
+
 ![Totoro](https://media.giphy.com/media/ASy3PKVFnk7ZK/giphy.gif)
 
 ## Updates
@@ -9,6 +12,7 @@ I'm porting over the og ghibli api to deno and supabase.
 2/28/23 - Getting close to feature parity with the jsonServe ghibliapi.  
 2/27/23 - Naive implementation for endpoints completed. Still need to add optional search params.  
 2/26/23 - Finally created a functional migration script to parse `data.json` to `seed.sql` for supabase.  
+6/3/23 - No longer maintaining this repo, in favor of a simplier solution
 
 ## Features todo
 
@@ -21,7 +25,8 @@ I'm porting over the og ghibli api to deno and supabase.
 - [x] Query supabase
 - [x] Add 'fields' param to endpoints
 - [x] Add limit to 'GET ALL' endpoints
-- [ ] Add validators for params
-- [ ] Improve Error Handling
-- [ ] ???
-- [ ] PROFIT!
+
+~~[ ] Add validators for params~~  
+~~[ ] Improve Error Handling~~  
+~~[ ] ???~~  
+~~[ ] PROFIT!~~ 
